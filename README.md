@@ -1,2 +1,14 @@
 # libopythonpro
-Estudo sobre virtual env e dependências com python 
+Estudo sobre construção de projetos Python no curso Pytools.
+Nesse cursos é estudado como contribuir com projetos de código aberto.
+
+Link para o curso [Python Pro](https://www.python.pro.br/)
+
+Suporte versão 3 de Python
+
+
+Tópicos a serem abordados:
+1. Git
+   <br/>Api Git hub (https://api.github.com/users/) 
+2. Virtualenv
+3. Pip (Python installer package)

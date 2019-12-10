@@ -3,6 +3,7 @@ Estudo sobre construção de projetos Python no curso Pytools.
 Nesse cursos é estudado como contribuir com projetos de código aberto.
 
 Link para o curso [Python Pro](https://www.python.pro.br/)
+<br/>[![Build Status](https://travis-ci.org/GilmarDeJesusSantana/libpythonpro.svg?branch=master)](https://travis-ci.org/GilmarDeJesusSantana/libpythonpro)
 
 Suporte versão 3 de Python
 

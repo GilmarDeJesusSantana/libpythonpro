@@ -4,6 +4,8 @@ Nesse cursos é estudado como contribuir com projetos de código aberto.
 
 Link para o curso [Python Pro](https://www.python.pro.br/)
 <br/>[![Build Status](https://travis-ci.org/GilmarDeJesusSantana/libpythonpro.svg?branch=master)](https://travis-ci.org/GilmarDeJesusSantana/libpythonpro)
+[![Updates](https://pyup.io/repos/github/GilmarDeJesusSantana/libpythonpro/shield.svg)](https://pyup.io/repos/github/GilmarDeJesusSantana/libpythonpro/)
+[![Python 3](https://pyup.io/repos/github/GilmarDeJesusSantana/libpythonpro/python-3-shield.svg)](https://pyup.io/repos/github/GilmarDeJesusSantana/libpythonpro/)
 
 Suporte versão 3 de Python
 

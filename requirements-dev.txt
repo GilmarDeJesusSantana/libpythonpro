@@ -11,7 +11,7 @@ six
 atomicwrites==1.3.0
 more-itertools==4.0.0
 pluggy==0.12
-colorama
+colorama==0.4.3
 importlib-metadata==0.12
 python_version
 wcwidth

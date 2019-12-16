@@ -16,6 +16,6 @@ importlib-metadata==0.12
 python_version
 wcwidth
 attrs==17.4.0
-packaging
+packaging==19.2
 pytest
 -r requirements.txt

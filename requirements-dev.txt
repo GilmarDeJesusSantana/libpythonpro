@@ -14,7 +14,7 @@ pluggy==0.12
 colorama
 importlib-metadata==0.12
 python_version
-wcwidth
+wcwidth==0.1.7
 attrs==17.4.0
 packaging
 pytest

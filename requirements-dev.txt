@@ -9,7 +9,6 @@ zipp==0.5
 pyparsing==2.0.2
 six
 atomicwrites==1.3.0
-sys_platform == "win32"
 more-itertools==4.0.0
 pluggy==0.12
 colorama

@@ -16,7 +16,7 @@ importlib-metadata==0.12
 python_version
 wcwidth
 attrs==19.3.0
-packaging
+packaging==19.2
 pytest==5.3.2
 pytest
 #Converage

@@ -17,5 +17,5 @@ python_version
 wcwidth
 attrs==17.4.0
 packaging
-pytest
+pytest==5.3.2
 -r requirements.txt

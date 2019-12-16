@@ -13,7 +13,7 @@ more-itertools==4.0.0
 pluggy==0.12
 colorama
 importlib-metadata==0.12
-python_version
+python_version==0.0.2
 wcwidth
 attrs==17.4.0
 packaging

@@ -15,7 +15,7 @@ colorama
 importlib-metadata==0.12
 python_version
 wcwidth
-attrs==17.4.0
+attrs==19.3.0
 packaging
 pytest
 -r requirements.txt

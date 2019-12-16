@@ -14,8 +14,13 @@ pluggy==0.12
 colorama
 importlib-metadata==0.12
 python_version==0.0.2
-wcwidth
-attrs==17.4.0
-packaging
+wcwidth==0.1.7
+attrs==19.3.0
+packaging==19.2
+pytest==5.3.2
 pytest
+
+#Converage
+pytest-cov==2.8.1
+coverage==5.0
 -r requirements.txt

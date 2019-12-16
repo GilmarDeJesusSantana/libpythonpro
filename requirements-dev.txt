@@ -18,4 +18,8 @@ wcwidth
 attrs==17.4.0
 packaging
 pytest
+
+#Converage
+pytest-cov==2.8.1
+coverage==4.5.4
 -r requirements.txt

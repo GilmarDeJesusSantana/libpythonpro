@@ -17,7 +17,6 @@ wcwidth==0.1.7
 packaging==19.2
 attrs==19.3.0
 pytest==5.3.2
-pytest
 
 #Converage
 pytest-cov==2.8.1

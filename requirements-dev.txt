@@ -21,5 +21,5 @@ pytest
 
 #Converage
 pytest-cov==2.8.1
-coverage==4.5.4
+coverage==5.0
 -r requirements.txt

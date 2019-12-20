@@ -9,7 +9,7 @@ from libpythonpro.spam.modelos import Usuario
     'usuarios',
     [
         [
-            Usuario(nome='Santana', email='gilmar@gmail.com.br'),
+            Usuario(nome='Santana', email='santana@gmail.com'),
             Usuario(nome='Gilmar', email='gilmar@gmail.com.br')
         ],
         [
@@ -20,7 +20,7 @@ from libpythonpro.spam.modelos import Usuario
 def test_qde_de_spam(sessao, usuarios):
     for usuario in usuarios:
         sessao.salvar(usuario)
-    enviador = Enviador()
+    enviador = EnviadorMock()
     enviador_de_spam = EnviadorDeSpam(sessao, enviador)
     enviador_de_spam.enviar_emails(
         'gilmar@gmail.com',
@@ -34,12 +34,15 @@ class EnviadorMock(Enviador):
 
     def __init__(self):
         super().__init__()
+        self.qtd_email_enviados = 0
         self.parametros_de_envio = None
 
     def enviar(self, remetente, destinatario, assunto, corpo):
-        pass
+        self.parametros_de_envio = (remetente, destinatario, assunto, corpo)
+        self.qtd_email_enviados += 1
 
-def test_parametros_de_spam(sessao, usuarios):
+
+def test_parametros_de_spam(sessao):
     usuario = Usuario(nome='Gilmar', email='gilmar@gmail.com.br')
     sessao.salvar(usuario)
     enviador = EnviadorMock()
@@ -47,11 +50,11 @@ def test_parametros_de_spam(sessao, usuarios):
     enviador_de_spam.enviar_emails(
         'santana@gmail.com',
         'Curso Python Pro',
-        'Confira os módulos fantáticos'
+        'Confira os módulos fantásticos'
     )
     assert enviador.parametros_de_envio == (
         'santana@gmail.com',
-        'gilmar@gmail.com',
+        'gilmar@gmail.com.br',
         'Curso Python Pro',
-        'Confira os módulos fantáticos'
+        'Confira os módulos fantásticos'
     )

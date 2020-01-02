@@ -13,7 +13,7 @@ def avatar_url():
         "login": "GilmarDeJesusSantana", "id": 33839314,
         "avatar_url": url,
     }
-    github_api_original = github_api.request.get()
+    github_api_original = github_api.requests.get
     github_api.requests.get = Mock(return_value=resp_mock)
     yield url
     github_api.requests.get = github_api_original

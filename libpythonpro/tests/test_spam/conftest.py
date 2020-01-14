@@ -3,12 +3,12 @@ import pytest
 from libpythonpro.spam.db import Conexao
 
 
-@pytest.fixture(scope='module')# Os scopus podem ser funcion, module e session
+@pytest.fixture(scope='module')  # Os scopus podem ser funcion, module e session
 def conexao():
-    #Setup
+    # Setup
     conexao_obj = Conexao()
     yield Conexao()
-    #Tear Down
+    # Tear Down
     conexao_obj.fechar()
 
 

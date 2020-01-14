@@ -1,3 +1,5 @@
+
+
 class Usuario:
     def __init__(self, nome, email):
         self.email = email

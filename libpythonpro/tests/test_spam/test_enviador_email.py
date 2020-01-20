@@ -20,7 +20,7 @@ def test_remetente(destinatario):
         'Curso Python Pro',
         'Primeira turma Guido Von Rossum aberta.'
     )
-    assert  destinatario in resultado
+    assert destinatario in resultado
 
 
 @pytest.mark.parametrize(

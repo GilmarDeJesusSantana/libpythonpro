@@ -1,6 +1,7 @@
 # libopythonpro
 Estudo sobre construção de projetos Python no curso Pytools.
 Nesse cursos é estudado como contribuir com projetos de código aberto.
+Suportado python 3.
 
 Link para o curso [Python Pro](https://www.python.pro.br/) 
  
